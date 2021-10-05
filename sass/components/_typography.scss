@@ -1,0 +1,53 @@
+body {
+  background-color: var(--dark-bg);
+
+  font-family: 'Graphik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 1.15;
+  color: var(--light-text);
+  text-align: center;
+}
+
+.link {
+  color: inherit;
+  font-size: 16px;
+}
+
+.button {
+  color: inherit;
+  font-size: 17px;
+  line-height: 1.47;
+}
+
+.headline {
+  font-weight: inherit;
+  font-size: 80px;
+  line-height: 1.1;
+}
+
+.second-headline {
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.19;
+}
+
+.sub-heading {
+  color: inherit;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.title {
+  font-weight: inherit;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  text-align: start;
+}
+
+.paragraphe {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: start;
+}
