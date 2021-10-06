@@ -1,7 +1,7 @@
 // General
 .button {
   display: inline-block;
-  padding: 20px 40px;
+  padding: 13.5px 46px;
 
   background-color: transparent;
   border: 1px solid #ffffff;
@@ -27,10 +27,6 @@
   }
 }
 
-.site-nav__button {
-  padding: 13.5px 46px;
-}
-
 // Header-text
 .header-text {
   margin-bottom: 95px;
@@ -52,12 +48,14 @@
   margin-bottom: 35px;
 }
 
-.header-buttons__button--color {
+.button--color {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
 }
 
 .header-buttons__button {
+  padding: 20px 40px;
+
   &:first-child {
     margin-right: 35px;
   }

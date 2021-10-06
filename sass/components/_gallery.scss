@@ -1,0 +1,38 @@
+// Gallery
+.gallery__container {
+  width: 1210px; //1090px + 15px + 15px
+
+  padding-bottom: 200px;
+}
+
+.gallery {
+  &__second-headline {
+    padding: 10px;
+  }
+
+  &__sub-heading {
+    padding: 10px;
+    margin-bottom: 44px;
+  }
+}
+
+.gallery {
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__image {
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+
+    margin-right: 33px;
+    margin-bottom: 44px;
+
+    &:nth-of-type(4),
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

@@ -294,7 +294,7 @@ body {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.2px;
-  line-height: 1.15;
+  line-height: 1.5;
   color: var(--light-text);
   text-align: center;
 }
@@ -349,7 +349,7 @@ body {
 
 .button {
   display: inline-block;
-  padding: 20px 40px;
+  padding: 13.5px 46px;
   background-color: transparent;
   border: 1px solid #ffffff;
 }
@@ -376,10 +376,6 @@ body {
   margin-right: 30px;
 }
 
-.site-nav__button {
-  padding: 13.5px 46px;
-}
-
 .header-text {
   margin-bottom: 95px;
 }
@@ -399,9 +395,13 @@ body {
   margin-bottom: 35px;
 }
 
-.header-buttons__button--color {
+.button--color {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
+}
+
+.header-buttons__button {
+  padding: 20px 40px;
 }
 
 .header-buttons__button:first-child {
@@ -478,24 +478,162 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 10px;
   padding-left: 0px;
 }
 
 .features__title:before {
   display: block;
-  width: 32px;
-  height: 62px;
+  width: 40px;
+  height: 40px;
   margin-right: 10px;
+  margin-top: 4px;
   content: '';
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.features__item:nth-of-type(3) .features__title::before {
+  margin-top: -4px;
+}
+
+.features__item:nth-of-type(1) .features__title::before {
   background-image: url(/images/features/features_icon1.svg);
+}
+
+.features__item:nth-of-type(2) .features__title::before {
+  background-image: url(/images/features/features_icon2.svg);
+}
+
+.features__item:nth-of-type(3) .features__title::before {
+  background-image: url(/images/features/features_icon3.svg);
 }
 
 .features__paragraphe {
   height: 116px;
   padding: 10px;
+}
+
+.contents__second-headline {
+  margin-bottom: 30px;
+}
+
+.contents__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 54px;
+  margin-bottom: 200px;
+}
+
+.contents__item {
+  width: 476px;
+  min-height: 620px;
+  padding: 40px 35px;
+  background-color: var(--light-bg);
+  -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+}
+
+.contents__title {
+  color: var(--dark-text);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contents__paragraphe {
+  display: inline-block;
+  width: 288px;
+  padding: 10px;
+  margin-bottom: 57px;
+  color: var(--second-text);
+  text-align: center;
+}
+
+.contents__button {
+  margin-bottom: 57px;
+}
+
+.contents__item:nth-child(2) .contents__button {
+  margin-bottom: 30px;
+}
+
+.contents__item:nth-child(2) .contents__paragraphe {
+  margin-bottom: 30px;
+}
+
+.contents__image {
+  height: 276px;
+}
+
+.gallery__container {
+  width: 1210px;
+  padding-bottom: 200px;
+}
+
+.gallery__second-headline {
+  padding: 10px;
+}
+
+.gallery__sub-heading {
+  padding: 10px;
+  margin-bottom: 44px;
+}
+
+.gallery__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery__image {
+  -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  margin-right: 33px;
+  margin-bottom: 44px;
+}
+
+.gallery__image:nth-of-type(4), .gallery__image:last-of-type {
+  margin-right: 0;
+}
+
+.partners__second-headline {
+  padding: 10px;
+}
+
+.partners__sub-heading {
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+.partners__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.partners__image:not(:last-child) {
+  margin-right: 74px;
+}
+
+.partners__button {
+  margin-bottom: 200px;
 }
 /*# sourceMappingURL=index.css.map */

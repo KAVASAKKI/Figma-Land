@@ -1,0 +1,30 @@
+// Partners
+.partners {
+  &__second-headline {
+    padding: 10px;
+  }
+
+  &__sub-heading {
+    padding: 10px;
+    margin-bottom: 60px;
+  }
+}
+
+.partners {
+  &__list {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+  }
+
+  &__image {
+    &:not(:last-child) {
+      margin-right: 74px;
+    }
+  }
+
+  &__button {
+    margin-bottom: 200px;
+  }
+}
