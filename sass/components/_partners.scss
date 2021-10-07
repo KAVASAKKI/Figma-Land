@@ -1,11 +1,17 @@
 // Partners
 .partners {
+  &__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.partners {
   &__second-headline {
     padding: 10px;
   }
 
   &__sub-heading {
-    padding: 10px;
     margin-bottom: 60px;
   }
 }
@@ -18,13 +24,9 @@
     margin-bottom: 50px;
   }
 
-  &__image {
+  &__item {
     &:not(:last-child) {
       margin-right: 74px;
     }
-  }
-
-  &__button {
-    margin-bottom: 200px;
   }
 }

@@ -1,0 +1,58 @@
+// Testimonials
+.testimonials {
+  &__container {
+    padding-top: 160px;
+    padding-bottom: 150px;
+  }
+}
+
+.testimonials {
+  &__second-headline {
+    padding: 10px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  &__item {
+    width: 430px;
+    padding: 40px;
+
+    border: 1px solid #dedede;
+    border-radius: 10px;
+
+    &:not(:nth-last-of-type(-n + 2)) {
+      margin-bottom: 20px;
+    }
+    &:not(:nth-of-type(2n)) {
+      margin-right: 20px;
+    }
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  $testimonials: 'ClaireBell', 'FranciscoLane', 'RalphFisher', 'JorgeMurphy';
+  $index: 1;
+
+  @each $person in $testimonials {
+    &__item:nth-of-type(#{$index}) &__meta::before {
+      display: block;
+      width: 50px;
+      height: 50px;
+      margin-right: 25px;
+      content: '';
+      background-image: url(/images/testimonials/#{$person}.webp);
+    }
+
+    $index: $index + 1;
+  }
+}
