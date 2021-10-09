@@ -1,0 +1,52 @@
+@media screen and (max-width: 549px) {
+  .nav-bar {
+    margin-bottom: 55px;
+  }
+
+  .header {
+    .headline {
+      width: 100%;
+      max-width: 314px;
+
+      margin-bottom: 0px;
+    }
+
+    &__sub-heading {
+      width: 100%;
+      max-width: 400px;
+
+      margin-bottom: 55px;
+    }
+  }
+
+  .header {
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__button:first-child {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .header {
+    &__content {
+      padding-top: 0px;
+      padding-bottom: 10px;
+      overflow: hidden;
+    }
+
+    &__image {
+      height: 435px;
+      transform: scale(1.4);
+    }
+
+    &__gradient {
+      height: 328px;
+      background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0e0e0e 100%);
+    }
+  }
+}

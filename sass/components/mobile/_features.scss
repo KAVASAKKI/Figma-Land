@@ -1,0 +1,30 @@
+@media screen and (max-width: 549px) {
+  .features {
+    &__content {
+      flex-direction: column;
+      margin-top: 30px;
+    }
+
+    &__images {
+      width: 300px;
+      height: 400px;
+    }
+
+    &__image {
+      &:first-child {
+        width: 100%;
+      }
+      &:last-child {
+        width: 200px;
+
+        right: 50%;
+        bottom: 50px;
+        transform: translate(50%);
+      }
+    }
+
+    &__list {
+      margin-left: 0px;
+    }
+  }
+}

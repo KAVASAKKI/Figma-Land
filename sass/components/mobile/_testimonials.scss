@@ -1,0 +1,14 @@
+@media screen and (max-width: 549px) {
+  .testimonials__item {
+    max-width: 352px;
+    width: 100%;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    &:not(:nth-of-type(2n)) {
+      margin-right: 0px;
+    }
+  }
+}

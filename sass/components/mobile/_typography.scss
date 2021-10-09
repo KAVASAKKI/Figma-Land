@@ -1,0 +1,33 @@
+@media screen and (max-width: 549px) {
+  .headline {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 1.19;
+  }
+
+  .sub-heading {
+    width: 100%;
+    max-width: 400px;
+
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .link {
+    font-size: 25px;
+  }
+
+  .paragraphe {
+    width: 100%;
+  }
+
+  .second-headline {
+    font-size: 45px;
+  }
+
+  .footer__link,
+  .contact__link {
+    font-size: 16px;
+    text-align: left;
+  }
+}

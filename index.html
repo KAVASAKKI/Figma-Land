@@ -13,20 +13,28 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="site-nav">
+        <div class="nav-bar">
           <a href="">
-            <img src="./images/header-logo.png" alt="logotype" />
+            <img src="./images/header/header-logo.png" alt="logotype" />
           </a>
 
-          <div>
-            <a class="link site-nav__link" href="">Home</a>
-            <a class="link site-nav__link" href="">Product</a>
-            <a class="link site-nav__link" href="">About</a>
-            <a class="link site-nav__link" href="">Contact</a>
+          <div class="menu-container" data-menu>
+            <nav class="site-nav">
+              <a class="link site-nav__link" href="">Home</a>
+              <a class="link site-nav__link" href="">Product</a>
+              <a class="link site-nav__link" href="">About</a>
+              <a class="link site-nav__link" href="">Contact</a>
+            </nav>
           </div>
 
-          <button class="button site-nav__button">Login</button>
-        </nav>
+          <button class="button nav-bar__button">Login</button>
+
+          <button class="menu-button" data-menu-button>
+            <svg width="44" height="26.5" aria-label="Mobile menu toggle">
+              <use href="./images/header/burger.svg#burger"></use>
+            </svg>
+          </button>
+        </div>
 
         <h1 class="headline">Work at the speed of thougth</h1>
         <p class="sub-heading header__sub-heading">
@@ -34,7 +42,7 @@
           freelancers who want a simple way to plan their schedule.
         </p>
 
-        <div>
+        <div class="header__buttons">
           <a class="button header__button button--color" href=""
             >Try For Free
           </a>
@@ -120,11 +128,17 @@
 
             <a class="button contents__button button--color" href="">Sign Up</a>
 
-            <img src="/images/contents/macbook.png" alt="" />
+            <img
+              class="contents__image"
+              src="/images/contents/macbook.png"
+              alt="" />
           </div>
 
           <div class="contents__item">
-            <h4 class="title contents__title">Design with real data</h4>
+            <h4 class="title contents__title">
+              Design with <br />
+              real data
+            </h4>
             <p class="paragraphe contents__paragraphe">
               Ever wondered if you're too reliant on a client for work? Slate
               helps you identify.
@@ -151,7 +165,7 @@
           keystroke away.
         </h3>
 
-        <div class="gallery__images">
+        <div class="gallery__images gallery__images--desktop">
           <img src="/images/gallery/image1.png" alt="" class="gallery__image" />
           <img src="/images/gallery/image2.png" alt="" class="gallery__image" />
           <img src="/images/gallery/image3.png" alt="" class="gallery__image" />
@@ -159,6 +173,25 @@
           <img src="/images/gallery/image5.png" alt="" class="gallery__image" />
           <img src="/images/gallery/image6.png" alt="" class="gallery__image" />
           <img src="/images/gallery/image7.png" alt="" class="gallery__image" />
+        </div>
+
+        <div class="gallery__images gallery__images--mobile">
+          <img
+            src="/images/gallery/mobile/image1.png"
+            alt=""
+            class="gallery__image" />
+          <img
+            src="/images/gallery/mobile/image2.png"
+            alt=""
+            class="gallery__image" />
+          <img
+            src="/images/gallery/mobile/image3.png"
+            alt=""
+            class="gallery__image" />
+          <img
+            src="/images/gallery/mobile/image4.png"
+            alt=""
+            class="gallery__image" />
         </div>
 
         <a href="" class="button">See more</a>
@@ -275,10 +308,18 @@
             <h2 class="second-headline cta__second-headline">
               OpenType feature and Variable fonts
             </h2>
-            <a href="" class="button button--color">Try For Free</a>
+            <a href="" class="button cta__button button--color">Try For Free</a>
           </div>
 
-          <img src="./images/call-to-action/media-content.png" alt="" />
+          <img
+            src="./images/call-to-action/image.png"
+            class="cta__image cta__image--desktop"
+            alt="" />
+
+          <img
+            src="./images/call-to-action/image-mobile.png"
+            class="cta__image cta__image--mobile"
+            alt="" />
         </div>
       </div>
     </section>
@@ -332,5 +373,6 @@
         </div>
       </div>
     </section>
+    <script src="/JavaScript/menu.js"></script>
   </body>
 </html>

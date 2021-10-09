@@ -1,0 +1,30 @@
+@media screen and (max-width: 549px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    &__nav {
+      flex-direction: column;
+
+      width: 100%;
+      max-width: 319px;
+
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+    &__item {
+      margin-bottom: 75px;
+      &:not(:last-child) {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  .contact {
+    width: 100%;
+    max-width: 319px;
+  }
+}

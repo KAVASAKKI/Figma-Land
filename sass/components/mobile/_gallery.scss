@@ -1,0 +1,18 @@
+@media screen and (max-width: 549px) {
+  .gallery {
+    &__images--desktop {
+      display: none;
+    }
+
+    &__image {
+      margin-right: 0px;
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .gallery__images--mobile {
+    display: none;
+  }
+}
