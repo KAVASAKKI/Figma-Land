@@ -423,7 +423,7 @@ body {
 }
 
 .header__image {
-  background-image: url(/images/header/screens.webp);
+  background-image: url(../images/header/screens.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -708,7 +708,7 @@ body {
   height: 50px;
   margin-right: 25px;
   content: '';
-  background-image: url(/images/testimonials/ClaireBell.webp);
+  background-image: url(../images/testimonials/ClaireBell.webp);
 }
 
 .testimonials__item:nth-of-type(2) .testimonials__meta::before {
@@ -717,7 +717,7 @@ body {
   height: 50px;
   margin-right: 25px;
   content: '';
-  background-image: url(/images/testimonials/FranciscoLane.webp);
+  background-image: url(../images/testimonials/FranciscoLane.webp);
 }
 
 .testimonials__item:nth-of-type(3) .testimonials__meta::before {
@@ -726,7 +726,7 @@ body {
   height: 50px;
   margin-right: 25px;
   content: '';
-  background-image: url(/images/testimonials/RalphFisher.webp);
+  background-image: url(../images/testimonials/RalphFisher.webp);
 }
 
 .testimonials__item:nth-of-type(4) .testimonials__meta::before {
@@ -735,7 +735,7 @@ body {
   height: 50px;
   margin-right: 25px;
   content: '';
-  background-image: url(/images/testimonials/JorgeMurphy.webp);
+  background-image: url(../images/testimonials/JorgeMurphy.webp);
 }
 
 .cta__container {
