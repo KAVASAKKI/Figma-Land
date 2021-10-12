@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/graphik");
+@import url("https://fonts.cdnfonts.com/css/graphik");
 :root {
   --dark-bg: rgba(24, 24, 24, 1);
   --light-bg: rgba(255, 255, 255, 1);
@@ -516,15 +516,15 @@ body {
 }
 
 .features__item:nth-of-type(1) .features__title::before {
-  background-image: url(/images/features/features_icon1.svg);
+  background-image: url(../images/features/features_icon1.svg);
 }
 
 .features__item:nth-of-type(2) .features__title::before {
-  background-image: url(/images/features/features_icon2.svg);
+  background-image: url(../images/features/features_icon2.svg);
 }
 
 .features__item:nth-of-type(3) .features__title::before {
-  background-image: url(/images/features/features_icon3.svg);
+  background-image: url(../images/features/features_icon3.svg);
 }
 
 .features__paragraphe {
